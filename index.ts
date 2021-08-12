@@ -31,7 +31,7 @@ module.exports = (data:Array<IData>, settings:ISettings = {}) => {
         let val = (typeof el2.value === 'function' ? el2.value(el1) : el1[el2.value]) // If is a function execute it, if not just enter the value
         // @ts-ignore
         obj[el2.label] = val
-        excelColumns = in2 + 1
+        excelColumns = in2
       })
       excelContent.push(obj)
     })
