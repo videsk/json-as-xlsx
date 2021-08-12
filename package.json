@@ -1,5 +1,5 @@
 {
-  "name": "json-as-xlsx",
+  "name": "@videsk/json-as-xlsx",
   "version": "2.0.1",
   "main": "index.js",
   "license": "MIT",
